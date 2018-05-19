@@ -1,0 +1,90 @@
+﻿html{
+    background-color: #f73f3f;
+    height:100%;
+}
+body {
+
+    width: 1000px;
+    height:100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-right: auto;
+    background-color:#fffef1;
+}
+
+figure{
+    text-align:center;
+    margin:auto;
+}
+#radio-button{
+    position:relative;
+    padding-left:350px;
+}
+
+#label{
+    float:left;
+    margin-right:auto;
+}
+#label p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:bold;
+}
+#campos{
+    padding-left:70px;
+    padding-top:12px;
+
+}
+#user-senha{
+    padding-left:300px;
+
+}
+#botoes{
+    text-align:center;
+    padding-top:10px;
+}
+/*BOTÃO BASICO*/
+.but {
+display: inline-block;
+background-color: #ccc;
+color: #444;
+padding: 10px 20px;
+text-decoration: none;
+box-sizing: border-box;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 14px;
+border: 0px;
+}
+
+.but:hover {
+background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,.15));
+cursor: pointer;
+}
+/*CORES*/
+.but-primary {
+color: #fff;
+background-color: #0068B4;
+}
+ 
+.but-success {
+color: #fff;
+background-color: #009835;
+}
+ 
+.but-error {
+color: #fff;
+background-color: #CC0000;
+}
+ 
+.but-warning {
+color: #fff;
+background-color: #F28E00;
+}
+/* EFEITOS */ 
+.but-shadow {
+box-shadow: 1px 1px 1px #999;
+}
+ 
+.but-rc {
+border-radius: 4px;
+}

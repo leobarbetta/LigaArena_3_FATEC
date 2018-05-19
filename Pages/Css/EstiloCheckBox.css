@@ -1,0 +1,67 @@
+﻿.payment-methods {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+    height: 136px;
+    width: 649px;
+}
+
+.payment-methods:after {
+  content: "";
+  clear: both;
+}
+
+.payment-method {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  float: left;
+  height: 140px;
+  position: relative;
+  width: 140px;
+}
+
+.payment-method + .payment-method {
+  margin-left: 25px;
+}
+.payment-method label {
+  background: #fff no-repeat center center;
+  bottom: 1px;
+  cursor: pointer;
+  display: block;
+  font-size: 0;
+  left: 1px;
+  position: absolute;
+  right: 1px;
+  text-indent: 100%;
+  top: 1px;
+  white-space: nowrap;
+}
+
+.xsalada label {
+  background-image: url(../Imagens/Cardapio/Lanches/41dd9e5ad6886699b4b4dac651181f1d.jpg);
+  
+}
+.fritas label {
+  background-image: url(../Imagens/Cardapio/Lanches/batatas-fritas140px.jpg);
+  
+}
+.acai label {
+  background-image: url(../Imagens/Cardapio/Lanches/acai140px.jpg);
+  
+}
+.payment-methods input:focus + label {
+  outline: 2px dotted #21b4d0;
+}
+.payment-methods input:checked + label {
+  outline: 4px solid #21b4d0;
+}
+.payment-methods input:checked + label:after {
+  background: url(../Imagens/attendance-checked.png) no-repeat;
+  bottom: -10px;
+  content: "";
+  display: inline-block;
+  height: 22px;
+  position: absolute;
+  right: -10px;
+  width: 22px;
+}

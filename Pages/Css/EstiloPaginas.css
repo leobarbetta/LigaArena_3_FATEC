@@ -1,0 +1,271 @@
+﻿/*PRINCIPAL*/
+body {
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "lucida Grande", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 975px;
+}
+
+.destaque {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+    .destaque h1 {
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Arial Rounded MT', Arial, sans-serif;
+        font-size:xx-large;
+        padding-bottom: 10px;
+    }
+/*CABECALHO*/
+header {
+    position: relative;
+    background-color: #4363fa;
+}
+
+    header h1 {
+        padding-left: 10px;
+    }
+/*RODAPE*/
+footer {
+    background-color: #4363fa;
+    clear: both;
+    padding: 20px 0;
+}
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -9999px;
+}
+
+    .social a[href*="facebook.com"] {
+        background-image: url(../Imagens/facebook.png);
+    }
+
+    .social a[href*="twitter.com"] {
+        background-image: url(../Imagens/twitter.png);
+    }
+
+    .social a[href*="plus.google.com"] {
+        background-image: url(../Imagens/googleplus.png);
+    }
+
+footer .container {
+    position: relative;
+}
+
+footer img {
+    padding-left: 10px;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    padding-right: 10px;
+}
+
+    .social li {
+        float: left;
+        margin-left: 25px;
+    }
+/*MENU*/
+.menu-departamentos {
+    background-color: #f73f3f;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
+    clear: left;
+    clear: both;
+    padding-bottom: 43px;
+    min-height: 500px;
+    margin-bottom: 10px;
+}
+
+    .menu-departamentos h2 {
+        margin: 10px;
+        text-align: center;
+    }
+
+    .menu-departamentos li {
+        background-color: white;
+        margin-bottom: 1px;
+        padding: 5px 10px;
+    }
+
+    .menu-departamentos a {
+        color: #333333;
+        text-decoration: none;
+    }
+
+        .menu-departamentos a:hover {
+            color: red;
+        }
+
+    .menu-departamentos li ul {
+        display: none;
+    }
+
+    .menu-departamentos li:hover ul {
+        display: block;
+    }
+/*LABELS*/
+.labels {
+    float: left;
+    line-height: 37px;
+    margin-left: 10px;
+    margin-bottom: auto;
+}
+
+    .labels p {
+        font-weight: bold;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+/*CAMPOS*/
+.campos {
+    line-height: 37px;
+    margin-left: 450px;
+    margin-bottom: auto;
+}
+
+.cliente {
+    margin-left: 200px;
+}
+/*TABELAS*/
+#gdvClientes {
+    width: 74%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+}
+
+#gdvProdutos {
+    width: 74%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+
+}
+#gdvFuncionario{
+    width: 74%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+}
+#gdvFeedback{
+    width: 74%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+}
+#gdvDespesas{
+    width: 74%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+}
+#gdvMinhaConta{
+    width: 63%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+    float:left;
+}
+#gdvFinalizarConta{
+    width: 63%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+    float:left;
+}
+#gdvRelatorioVendas{
+    width: 74%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+}
+#gdvRecebePedido{
+    width: 74%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+}
+#gdvRelDespesas{
+    width: 63%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+    float:left;
+}
+#gdvRelatorioVendas1{
+   
+    border-collapse: separate;
+    border-spacing: 10px;
+    padding: 10px;
+    float:left;
+}
+#gdvAddProdutos{
+    margin-left:450px;
+}
+
+/*TELA FEEDBACK*/
+.feedback {
+    padding-top: 15px;
+    margin-left: 240px;
+}
+
+    .feedback p {
+        color: #65737A;
+    }
+/*TELA CARDAPIO*/
+.cardapio {
+    padding-top: 0;
+}
+
+    .cardapio li {
+        display: inline-block;
+        vertical-align: top;
+        width: 140px;
+        margin: 2px;
+        padding-bottom: 10px;
+    }
+
+    .cardapio h2 {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: block;
+    }
+
+    .cardapio a {
+        color: #333;
+        font-size: 14px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+.destaque-cardapio {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 300px;
+    margin-top: 0px;
+    width: 665px;
+}
+
+    .destaque-cardapio h2 {
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+    .destaque-cardapio p {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
